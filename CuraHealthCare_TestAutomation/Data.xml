@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Automation>
+	<Execution>
+		//pass
+		<LoginTestCase>
+			<enterUsername>John Doe</enterUsername>
+			<enterPassword>ThisIsNotAPassword</enterPassword>
+		</LoginTestCase>
+
+		//fail
+		<LoginTestCase>
+			<enterUsername>admin</enterUsername>
+			<enterPassword>ThisIsNotAPassword</enterPassword>
+		</LoginTestCase>
+	</Execution>
+</Automation>
